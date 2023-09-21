@@ -7,7 +7,7 @@ FRNet is a simple and efficient vessel segmentation network for OCTA images. It 
 </figure>
 
 # The ROSSA Dataset
-ROSSA is a retinal OCTA vessel segmentation dataset semi-automatically annotations created by us using Segmentation Anything Model(SAM), which contains 918 images. It is stored in the `dataset/ROSSA` folder of this repo, in which:
+ROSSA is an retinal OCTA vessel segmentation dataset semi-automatically annotations created by us using Segmentation Anything Model(SAM), which contains 918 images. It is stored in the `dataset/ROSSA` folder of this repo, in which:
 
 `train_manual` contains 100 images (NO.1-NO.100) that we manually annotated, using as training set.
 

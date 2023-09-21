@@ -43,26 +43,7 @@ def prepareDatasets():
         "val":SegmentationDataset(os.path.join(path_ROSSA, "val")),
         "test":SegmentationDataset(os.path.join(path_ROSSA,"test"))
     }
-    # all_datasets['ROSSA_M100'] = {
-    #     "train":SegmentationDataset(os.path.join(path_ROSSA, "train_manual") ),
-    #     "val":SegmentationDataset(os.path.join(path_ROSSA, "val")),
-    #     "test":SegmentationDataset(os.path.join(path_ROSSA,"test"))
-    # }
-    # all_datasets['ROSSA_S100'] = {
-    #     "train":SegmentationDataset(os.path.join(path_ROSSA, "train_sam"), end=100/618 ),
-    #     "val":SegmentationDataset(os.path.join(path_ROSSA, "val")),
-    #     "test":SegmentationDataset(os.path.join(path_ROSSA,"test"))
-    # }
-    # all_datasets['ROSSA_S200'] = {
-    #     "train":SegmentationDataset(os.path.join(path_ROSSA, "train_sam"), end=200/618 ),
-    #     "val":SegmentationDataset(os.path.join(path_ROSSA, "val")),
-    #     "test":SegmentationDataset(os.path.join(path_ROSSA,"test"))
-    # }
-    # all_datasets['ROSSA_S618'] = {
-    #     "train":SegmentationDataset(os.path.join(path_ROSSA, "train_sam") ),
-    #     "val":SegmentationDataset(os.path.join(path_ROSSA, "val")),
-    #     "test":SegmentationDataset(os.path.join(path_ROSSA,"test"))
-    # }
+    // More datasets can be added here......
     return all_datasets
 
 class SegmentationDataset(Dataset):

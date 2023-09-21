@@ -7,7 +7,7 @@ FRNet is a simple and efficient vessel segmentation network for OCTA images. It 
 </figure>
 
 # The ROSSA Dataset
-ROSSA is a retinal OCTA vessel segmentation dataset semi-automatically annotations created by us using Segmentation Anything Model(SAM), which contains 918 images. It is stored in the dataset/ROSSA folder of this warehouse, in which:
+ROSSA is a retinal OCTA vessel segmentation dataset semi-automatically annotations created by us using Segmentation Anything Model(SAM), which contains 918 images. It is stored in the `dataset/ROSSA` folder of this repo, in which:
 
 `train_manual` contains 100 images (NO.1-NO.100) that we manually annotated, using as training set.
 
@@ -26,7 +26,7 @@ python run_benchmark.py
 ```
 The current version of the code contains 2 models: `FRNet-base` and `FRNet`, and 3 datasets: `ROSSA`, `OCTA_500 (3M)` and `OCTA_500 (6M)`.
 
-By running run_benchmark.py, 2 models on 3 datasets will be trained and evaluated at once (that is, a total of 2x3=6 results).
+By running `run_benchmark.py`, the 2 models on 3 datasets will be trained and evaluated at once (that is, a total of 2x3=6 results).
 
 The results will be saved in `json` format to the `result` folder.
 
@@ -73,7 +73,7 @@ models = {
     # More models can be added here......
 }
 ```
-Each item in models must be of type `ObjectCreator`, in which your model can be created.
+Each item in `models` must be of type `ObjectCreator`, in which your model can be created.
 
 # Citation
 ```

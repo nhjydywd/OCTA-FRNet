@@ -33,7 +33,7 @@ By running `run_benchmark.py`, the 2 models on 3 datasets will be trained and ev
 The results will be saved in `json` format to the `result` folder.
 
 ## The ROSSA Dataset
-ROSSA is an retinal OCTA vessel segmentation dataset semi-automatically annotations created by us using Segmentation Anything Model(SAM), which contains 918 images. It is stored in the `dataset/ROSSA` folder of this repo, in which:
+ROSSA is an retinal OCTA vessel segmentation dataset semi-automatically annotations created by us using Segmentation Anything Model(SAM). It contains 918 images, which are stored in the `dataset/ROSSA` folder of this repo:
 
 `train_manual` contains 100 images (NO.1-NO.100) that we manually annotated, using as training set.
 

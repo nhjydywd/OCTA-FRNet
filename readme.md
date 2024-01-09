@@ -1,11 +1,4 @@
-# FRNet
-
-FRNet is a simple and efficient vessel segmentation network for OCTA images. It can achieve performance close to the SOTA method with only about 100k parameters. The model takes up less than 1MB of storage on the disk.
-
-<figure class="half">
-    <img src="FRNet.png">
-</figure>
-
+This repo is the code archive for `An Accurate and Efficient Neural Network for OCTA Vessel Segmentation and a New Dataset` (ICASSP 2024).
 ## Citation
 ```
 @misc{ning2023accurate,
@@ -17,6 +10,15 @@ FRNet is a simple and efficient vessel segmentation network for OCTA images. It 
       primaryClass={eess.IV}
 }
 ```
+
+## FRNet
+
+FRNet is a simple and efficient vessel segmentation network for OCTA images. It can achieve performance close to the SOTA method with only about 100k parameters. The model takes up less than 1MB of storage on the disk.
+
+<figure class="half">
+    <img src="FRNet.png">
+</figure>
+
 
 
 ## Run
